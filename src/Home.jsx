@@ -1,57 +1,41 @@
 import { Link } from 'react-router-dom';
 import './Home.css';
+import frontImg from './assets/front.jpg';
 
 function Home() {
   return (
     <div className="home-container">
-       <div className="hero-text">
-          <h1>Welcome to Mountlake Adult Family Home</h1>
-        
-        </div>
-      {/* Hero / House Picture Spot */}
+      {/* Hero Section */}
       <section className="hero-section">
+        <div className="hero-text">
+          <h1>Welcome to Mountlake Adult Family Home</h1>
+          <p>
+            Providing high quality care for your loved one since 1996.
+          </p>
+        </div>
         <div className="house-image-placeholder">
-          {/* TODO: Replace src with your actual house image path once you have it in your assets folder */}
           <img 
-            src="https://via.placeholder.com/1200x600?text=House+Picture+Goes+Here" 
+            src={frontImg} 
             alt="Mountlake Adult Family Home" 
             className="house-img" 
           />
         </div>
-       
       </section>
 
-      {/* Care Provider Profile */}
-      <section className="provider-section">
-        <h2>Meet Our Care Provider</h2>
-        <div className="provider-profile">
-          <div className="provider-image-placeholder">
-            {/* TODO: Replace src with actual provider image path */}
-            <img 
-              src="https://via.placeholder.com/200x200?text=Provider+Photo" 
-              alt="Care Provider" 
-              className="provider-img" 
-            />
-          </div>
-          <div className="provider-info">
-            <h3>Shirmela Gaddam</h3>
-         
-            <p className="provider-bio">
-              Care provider with over 30 years running the business and providing high quality care. 
-            </p>
-          </div>
-        </div>
-      </section>
-
+     
       {/* Contact CTAs */}
       <section className="home-cta-section">
-        <div className="home-cta-buttons">
-          <Link to="/care" className="btn-primary">Check out our care</Link>
-          <Link to="/contact" className="btn-secondary">Contact us</Link>
+        <div className="home-cta-content">
+          <h2>Ready to Learn More?</h2>
+          <div className="home-cta-buttons">
+            <Link to="/care" className="btn-primary">Check out our care</Link>
+             <Link to="/ourhome" className="btn-primary">View Home and Ammenedies</Link>
+            <Link to="/contact" className="btn-secondary">Contact us</Link>
+          </div>
         </div>
       </section>
     </div>
-  )
+  );
 }
 
 export default Home;

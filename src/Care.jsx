@@ -18,12 +18,20 @@ function Care() {
     
         {/* Pilot Program Callout */}
         <div className="care-pilot-box">
-          <h2>Washington State Pilot Programs</h2>
+          <h2>Washington State Pilot Program</h2>
           <p>
             Through many years of great service and specialized care, Mountlake AFH has been hand-selected and chosen by 
-            the State of Washington to join pilot programs. These programs allow for further specialized care plans to help 
+            the State of Washington to join pilot program. These programs allow for further specialized care plans to help 
             us reach our goal of supporting our clients' dreams and independent living. Before pilot programs, we helped 5 people achieve their goals. After the
             pilot program, that number has doubled. 
+          </p>
+        </div>
+        {/* Pilot Program Callout */}
+        <div className="care-pilot-box">
+          <h2>Meaningfulday Program</h2>
+          <p>
+            Mountlake AFH helped start and run the meaningful day program funded by the state of Washington to help clients be more involved in the community to reduce behavioral issues. 
+            Our impact through the program was successsful helping at least 5 clients get more involved in activities while maintaining good behavior. 
           </p>
         </div>
 
@@ -109,6 +117,7 @@ function Care() {
             <span className="care-activity-pill">Dance Lessons</span>
             <span className="care-activity-pill">Singing Lessons</span>
             <span className="care-activity-pill">Easter Egg Hunt</span>
+             <span className="care-activity-pill">Christmas Present Opening</span>
           </div>
         </div>
 

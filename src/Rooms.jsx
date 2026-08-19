@@ -1,41 +1,52 @@
 import './Rooms.css';
+import bedroomImg from './assets/bedroom.jpg';
+import bathroomImg from './assets/bathroom.jpg';
+import diningLivingImg from './assets/diningliving.jpg';
+import gardenImg from './assets/garden.jpg';
+import patioImg from './assets/patio.jpg';
 
 function Rooms() {
   const amenities = [
      {
       title: "Community",
-      description: "We are located very close to the police station, library, grocery stores, freeway, mass transit and Snohomish County/King County Bus Routes",
-      image: "https://via.placeholder.com/600x400?text=Outdoor+Seating",
+      description: "Mountlake AFH is in the proximity of the library, police station, feeway, as well as other grocery stores. Public transportation such as community transit, king county and the light rail are also closely available for client. At Mountlake AFH, we are partnered with Dart commnty services to provide safe transportation at an efficient price.",
+      image: "https://via.placeholder.com/800x600?text=Outdoor+Seating",
     },
     {
       title: "Bedrooms",
-      description: "Description",
-      image: "https://via.placeholder.com/600x400?text=Bedroom",
+      description: "Client gets their personal private space to sleep and store belongings. Clients can also decorate their room as desired to make themselves feel at home. (Empty Room shown)",
+      image: bedroomImg,
     },
     {
       title: "Bathroom",
-      description: "Our bathrooms are fully equipped with safety features, including grab bars and non-slip surfaces, ensuring a safe and comfortable experience for all residents.",
-      image: "https://via.placeholder.com/600x400?text=Bathroom",
+      description: "We offer a bathroom with a non slip shower stall along with grab bars to help with client mobilty. Client also has access to a washer and drier for laundry.",
+      image: bathroomImg,
     },
+   
     {
-      title: "Kitchen",
-      description: ".",
-      image: "https://via.placeholder.com/600x400?text=Kitchen",
-    },
-    {
-      title: "Dining Room and Table",
-      description: "",
-      image: "https://via.placeholder.com/600x400?text=Dining+Table",
+      title: "Living Room and Dining Room",
+      description: "Clients have access to a dining room to eat food as well as a living room if they have guests over.",
+      image: diningLivingImg,
     },
     {
       title: "Garden",
-      description: "",
-      image: "https://via.placeholder.com/600x400?text=Garden",
+      description: "Fresh fruits and vegtables are available and home grown in the garden. ",
+      image: gardenImg,
     },
     {
-      title: "Outdoor Seating",
-      description: "",
-      image: "https://via.placeholder.com/600x400?text=Outdoor+Seating",
+      title: "Patio",
+      description: "Clients can enjoy the beautiful day outside on our patio. The patio is also used for special events and occasions and has a patio heater for the Washington weather.",
+      image: patioImg,
+    },
+     {
+      title: "Kitchen",
+      description: "This is where all the meals are made. Clients have access to the fridge and can store food in their if they wish. ",
+      image: "https://via.placeholder.com/800x600?text=Kitchen",
+    },
+     {
+      title: "Other Ammendeties",
+      description: "At Mountlake AFH, we provide High speed wifi, subscription TV services, transportation, .... and more for the client. Visitors are allowed",
+      
     },
   ];
 
