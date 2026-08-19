@@ -23,13 +23,15 @@ function Contact() {
               <ul>
                 <li>425-772-5316</li>
                 <p>Call or text Shirmela</p>
+                  <li>425-672-5795</li>
+                <p>House phone</p>
               </ul>
             </div>
 
             <div className="care-skill-card">
               <h3>Email</h3>
               <ul>
-                <li>sgaddam@msn.com</li>
+                <li>MountlakeAFH@hotmail.com</li>
               </ul>
             </div>
 

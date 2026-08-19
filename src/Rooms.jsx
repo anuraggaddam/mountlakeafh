@@ -4,7 +4,7 @@ function Rooms() {
   const amenities = [
      {
       title: "Community",
-      description: "We are located very close to the police station, library, grocery stores, and the freeway",
+      description: "We are located very close to the police station, library, grocery stores, freeway, mass transit and Snohomish County/King County Bus Routes",
       image: "https://via.placeholder.com/600x400?text=Outdoor+Seating",
     },
     {
