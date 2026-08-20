@@ -9,7 +9,7 @@ function Rooms() {
   const amenities = [
      {
       title: "Community",
-      description: "Mountlake AFH is in the proximity of the library, police station, feeway, as well as other grocery stores. Public transportation such as community transit, king county and the light rail are also closely available for client. At Mountlake AFH, we are partnered with Dart commnty services to provide safe transportation at an efficient price.",
+      description: "Mountlake AFH is in the proximity of the library, police station, feeway, as well as other grocery stores. Public transportation such as community transit, king county and the light rail are also closely available for client. At Mountlake AFH, we are partnered with Dart community services to provide safe transportation at an efficient price.",
       image: "https://via.placeholder.com/800x600?text=Outdoor+Seating",
     },
     {
@@ -40,12 +40,12 @@ function Rooms() {
     },
      {
       title: "Kitchen",
-      description: "This is where all the meals are made. Clients have access to the fridge and can store food in their if they wish. ",
+      description: "This is where meals are prepped by provider and staff or by clients if they wish to cook. Clients have access to the fridge if they wish to store food in there.",
       image: "https://via.placeholder.com/800x600?text=Kitchen",
     },
      {
       title: "Other Ammendeties",
-      description: "At Mountlake AFH, we provide High speed wifi, subscription TV services, transportation, .... and more for the client. Visitors are allowed",
+      description: "At Mountlake AFH, we provide high speed wifi, subscription TV services, transportation. We partnered with Star Hair and Nails salon in Edmonds to provide the clients with grooming as needed. We transport and assist clients with medical and dental appointments.",
       
     },
   ];

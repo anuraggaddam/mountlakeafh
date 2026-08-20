@@ -21,10 +21,11 @@ function Contact() {
             <div className="care-skill-card">
               <h3>Phone</h3>
               <ul>
-                <li>425-772-5316</li>
-                <p>Call or text Shirmela</p>
-                  <li>425-672-5795</li>
-                <p>House phone</p>
+                <li>(Mobile: Text/Call) 425-772-5316</li>
+               
+                  <li>(Home Phone: Call only) 425-672-5795</li>
+                  <li> (Fax) 425-608-0227</li>
+          
               </ul>
             </div>
 

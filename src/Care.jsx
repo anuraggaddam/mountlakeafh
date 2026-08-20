@@ -30,8 +30,8 @@ function Care() {
         <div className="care-pilot-box">
           <h2>Meaningfulday Program</h2>
           <p>
-            Mountlake AFH helped start and run the meaningful day program funded by the state of Washington to help clients be more involved in the community to reduce behavioral issues. 
-            Our impact through the program was successsful helping at least 5 clients get more involved in activities while maintaining good behavior. 
+            Mountlake AFH participated in meaningful day program funded by the state of Washington to help clients be more involved in the community to reduce behavioral issues. 
+            Our impact through the program was successsful helping at least 5 clients get more involved in activities while maintaining positive behavior. 
           </p>
         </div>
 
@@ -48,6 +48,7 @@ function Care() {
             <div className="care-tag">Developmental Disabilities (DDA)</div>
             <div className="care-tag">Mobility & Physical Assistance Needs</div>
             <div className="care-tag">Individualized Specialized Care</div>
+             <div className="care-tag">Dementia Care</div>
           </div>
         </div>
 
@@ -55,7 +56,7 @@ function Care() {
         <div className="care-block">
           <h2>Daily Living & Life Skills (ADLs & IADLs)</h2>
           <p className="care-block-desc">
-            We help assist clients and teach essential daily skills to promote confidence and independence:
+            We help assist clients and teach essential daily skills to promote confidence and independence including but not limited to:
           </p>
           <div className="care-skills-container">
             <div className="care-skill-card">
@@ -102,15 +103,16 @@ function Care() {
         <div className="care-block">
           <h2>Special Activities & Community Outings</h2>
           <p className="care-block-desc">
-            We believe in staying active, connected, and engaged. Some of our outings and events include:
+            We believe in staying active, connected, and engaged. Some of our outings and events include but not limited to:
           </p>
           <div className="care-activities-wrap">
             <span className="care-activity-pill">Concerts</span>
             <span className="care-activity-pill">Road Trips</span>
             <span className="care-activity-pill">Ferry Trips</span>
             <span className="care-activity-pill">Disneyland</span>
-            <span className="care-activity-pill">Texas Road Trips</span>
+            <span className="care-activity-pill">Texas Trip</span>
             <span className="care-activity-pill">Animal Petting Zoo</span>
+             <span className="care-activity-pill">Alaska Cruises</span>
             <span className="care-activity-pill">Gardening</span>
             <span className="care-activity-pill">Bowling</span>
             <span className="care-activity-pill">Horseback Riding</span>
@@ -118,6 +120,10 @@ function Care() {
             <span className="care-activity-pill">Singing Lessons</span>
             <span className="care-activity-pill">Easter Egg Hunt</span>
              <span className="care-activity-pill">Christmas Present Opening</span>
+              <span className="care-activity-pill">Drum lessons</span>
+            <span className="care-activity-pill">Edmonds Senior Center</span>
+             <span className="care-activity-pill">Beach/Lake</span>
+             <span className="care-activity-pill">Holidays and Brithdays</span>
           </div>
         </div>
 
